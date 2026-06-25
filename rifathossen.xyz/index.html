@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rifat Hossen | rifathossen.xyz</title>
+
+<meta name="description" content="Official website of Rifat Hossen. Portfolio, gallery, videos, projects and more.">
+
+<link rel="canonical" href="https://rifathossen.xyz">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Rifat Hossen">
+<meta property="og:description" content="Official website of Rifat Hossen">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://rifathossen.xyz">
+<meta property="og:image" content="images/profile.jpg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rifat Hossen">
+<meta name="twitter:description" content="Official website of Rifat Hossen">
+<meta name="twitter:image" content="images/profile.jpg">
+
+<!-- Favicon -->
+<link rel="icon" href="favicon/favicon.ico">
+<link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="logo">rifathossen.xyz</div>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#projects">Future Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <button id="theme-toggle" aria-label="Toggle Theme">
+        🌙
+    </button>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Rifat Hossen</h1>
+            <p>Minimal. Modern. Professional.</p>
+
+            <a href="#about" class="btn">
+                Explore
+            </a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About</h2>
+            <p>
+                Welcome to my personal website.
+                This section can later be expanded with biography,
+                achievements, experience and more.
+            </p>
+        </div>
+    </section>
+
+    <!-- IMAGE -->
+    <section id="gallery" class="section">
+        <div class="container">
+
+            <h2>Featured Image</h2>
+
+            <div class="image-wrapper">
+
+                <img
+                    src="images/profile.jpg"
+                    alt="Profile Image"
+                    onerror="this.style.display='none';document.getElementById('img-placeholder').style.display='flex';"
+                >
+
+                <div id="img-placeholder" class="placeholder image-placeholder">
+                    <div>
+                        <h3>Profile Image Placeholder</h3>
+                        <p>Add:</p>
+                        <code>images/profile.jpg</code>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section id="video" class="section">
+        <div class="container">
+
+            <h2>Featured Video</h2>
+
+            <div class="video-wrapper">
+
+                <video id="introVideo" controls preload="metadata">
+                    <source src="videos/intro.mp4" type="video/mp4">
+                </video>
+
+                <div id="videoPlaceholder" class="placeholder video-placeholder">
+                    <div>
+                        <h3>Video Placeholder</h3>
+                        <p>Add:</p>
+                        <code>videos/intro.mp4</code>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FUTURE -->
+    <section id="projects" class="section">
+        <div class="container">
+
+            <h2>Future Expansion</h2>
+
+            <div class="cards">
+
+                <div class="card">Portfolio Projects</div>
+                <div class="card">Blog Posts</div>
+                <div class="card">Gallery</div>
+                <div class="card">Downloads</div>
+                <div class="card">Timeline</div>
+                <div class="card">Testimonials</div>
+                <div class="card">FAQ</div>
+                <div class="card">Announcements</div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <div class="container">
+
+            <h2>Contact</h2>
+
+            <p>Email: your-email@example.com</p>
+
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>
+        © 2026 rifathossen.xyz
+    </p>
+
+    <p>
+        GitHub:
+        https://github.com/yourusername
+    </p>
+
+    <p>
+        Email:
+        your-email@example.com
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
